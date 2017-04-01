@@ -1,9 +1,10 @@
 # SUNAT_TC
-Proyecto de SSIS para extraer el Tipo de Cambio de la SUNAT
+Proyecto de SSIS para extraer el Tipo de Cambio de la SUNAT y grabarlo en una tabla
 
 Hecho con Visual Studio CE 2015 y SQL Server 2016 DE
 
-* El paquete tiene un ScriptComponent hecho en VB, y el código se puede ver en ScriptComponent.vb
+* El paquete tiene un ScriptComponent hecho en VB, el cual se conecta a la página de la SUNAT.
+* El código se puede ver en ScriptComponent.vb
 * No se usan referencias a librerías de terceros.
 
 Setup:
@@ -13,7 +14,7 @@ Setup:
 - La cadena de conexión para la base de datos se puede setear en el archivo de configuración Inicializacion.dtsConfig
 - El archivo Importar_SUNAT_TC.bat puede ser usado para ejecutar el paquete desde la línea de comando.
 
-
+--> Una vez ejecutado el paquete, el tipo de cambio extraido se encontrará en la tabla M_SUNAT_TC
 
 Reconocimiento: 
    Me basé en código C# de Afu Tse Mundaca como figura en su blog:
