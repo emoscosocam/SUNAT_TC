@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<DTSConfiguration>
+<DTSConfigurationHeading>
+<DTSConfigurationFileInfo GeneratedBy="PE-WRK-EM-LOCAL\em_local" GeneratedFromPackageName="Importar_SUNAT_TC" GeneratedFromPackageID="{2C2F5D84-7C59-433E-B852-DD6AEAA4E592}" GeneratedDate="1/04/2017 7:50:25 a. m."/>
+</DTSConfigurationHeading>
+<Configuration ConfiguredType="Property" Path="\Package.Variables[User::ConnectionString].Properties[Value]" ValueType="String">
+<ConfiguredValue>Data Source=.;Initial Catalog=Test_DB;Provider=SQLNCLI11.1;Integrated Security=SSPI;</ConfiguredValue>
+</Configuration>
+</DTSConfiguration>

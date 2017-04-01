@@ -1,0 +1,94 @@
+Microsoft (R) SQL Server Execute Package Utility
+Version 13.0.1601.5 for 64-bit
+Copyright (C) 2016 Microsoft. All rights reserved.
+
+Started:  8:21:25 a. m.
+Progress: 2017-04-01 08:21:25.24
+   Source: Extraer datos de la Web 
+   Validating: 0% complete
+End Progress
+Progress: 2017-04-01 08:21:25.32
+   Source: Extraer datos de la Web 
+   Validating: 50% complete
+End Progress
+Progress: 2017-04-01 08:21:25.33
+   Source: Extraer datos de la Web 
+   Validating: 100% complete
+End Progress
+Progress: 2017-04-01 08:21:25.42
+   Source: Limpiar STG_SUNAT_TC 
+   Executing query "truncate table STG_SUNAT_TC".: 100% complete
+End Progress
+Progress: 2017-04-01 08:21:25.42
+   Source: Extraer datos de la Web 
+   Validating: 0% complete
+End Progress
+Progress: 2017-04-01 08:21:25.44
+   Source: Extraer datos de la Web 
+   Validating: 50% complete
+End Progress
+Progress: 2017-04-01 08:21:25.44
+   Source: Extraer datos de la Web 
+   Validating: 100% complete
+End Progress
+Warning: 2017-04-01 08:21:25.44
+   Code: 0x80049304
+   Source: Extraer datos de la Web SSIS.Pipeline
+   Description: Warning: Could not open global shared memory to communicate with performance DLL; data flow performance counters are not available.  To resolve, run this package as an administrator, or on the system's console.
+End Warning
+Progress: 2017-04-01 08:21:25.45
+   Source: Extraer datos de la Web 
+   Prepare for Execute: 0% complete
+End Progress
+Progress: 2017-04-01 08:21:25.45
+   Source: Extraer datos de la Web 
+   Prepare for Execute: 50% complete
+End Progress
+Progress: 2017-04-01 08:21:25.45
+   Source: Extraer datos de la Web 
+   Prepare for Execute: 100% complete
+End Progress
+Progress: 2017-04-01 08:21:25.45
+   Source: Extraer datos de la Web 
+   Pre-Execute: 0% complete
+End Progress
+Progress: 2017-04-01 08:21:25.45
+   Source: Extraer datos de la Web 
+   Pre-Execute: 50% complete
+End Progress
+Progress: 2017-04-01 08:21:25.47
+   Source: Extraer datos de la Web 
+   Pre-Execute: 100% complete
+End Progress
+Progress: 2017-04-01 08:21:25.74
+   Source: Extraer datos de la Web 
+   Post Execute: 0% complete
+End Progress
+Progress: 2017-04-01 08:21:25.74
+   Source: Extraer datos de la Web 
+   Post Execute: 50% complete
+End Progress
+Progress: 2017-04-01 08:21:25.74
+   Source: Extraer datos de la Web 
+   Post Execute: 100% complete
+End Progress
+Progress: 2017-04-01 08:21:25.74
+   Source: Extraer datos de la Web 
+   Cleanup: 0% complete
+End Progress
+Progress: 2017-04-01 08:21:25.74
+   Source: Extraer datos de la Web 
+   Cleanup: 50% complete
+End Progress
+Progress: 2017-04-01 08:21:25.74
+   Source: Extraer datos de la Web 
+   Cleanup: 100% complete
+End Progress
+Progress: 2017-04-01 08:21:25.77
+   Source: Ejecucion Final 
+   Executing query "execute Proc_STG_SUNAT_TC".: 100% complete
+End Progress
+DTExec: The package execution returned DTSER_SUCCESS (0).
+Started:  8:21:25 a. m.
+Finished: 8:21:25 a. m.
+Elapsed:  0.766 seconds

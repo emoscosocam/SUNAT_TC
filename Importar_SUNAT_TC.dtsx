@@ -6,28 +6,50 @@
   DTS:CreatorComputerName="PE-WRK-EM-LOCAL"
   DTS:CreatorName="PE-WRK-EM-LOCAL\em_local"
   DTS:DTSID="{2C2F5D84-7C59-433E-B852-DD6AEAA4E592}"
+  DTS:EnableConfig="True"
   DTS:ExecutableType="Microsoft.Package"
   DTS:LastModifiedProductVersion="13.0.2165.0"
   DTS:LocaleID="10250"
   DTS:ObjectName="Importar_SUNAT_TC"
   DTS:PackageType="5"
-  DTS:VersionBuild="43"
-  DTS:VersionGUID="{338662B0-425F-4C88-A990-0A51D2F06912}">
+  DTS:VersionBuild="50"
+  DTS:VersionGUID="{9E18A369-6606-463E-B0B9-C7C9E09B0F65}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
     <DTS:ConnectionManager
       DTS:refId="Package.ConnectionManagers[Local.Test_DB]"
       DTS:CreationName="OLEDB"
+      DTS:DelayValidation="True"
       DTS:DTSID="{E55EE853-35B2-46F4-99FC-93A6CB2DB403}"
       DTS:ObjectName="Local.Test_DB">
+      <DTS:PropertyExpression
+        DTS:Name="ConnectionString">@[User::ConnectionString]</DTS:PropertyExpression>
       <DTS:ObjectData>
         <DTS:ConnectionManager
-          DTS:ConnectionString="Data Source=.;Initial Catalog=Test_DB;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
+          DTS:ConnectionString="Data Source=.;Initial Catalog=Test_DB;Provider=SQLNCLI11.1;Integrated Security=SSPI;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
   </DTS:ConnectionManagers>
-  <DTS:Variables />
+  <DTS:Configurations>
+    <DTS:Configuration
+      DTS:ConfigurationString="C:\Users\em_local\Documents\Visual Studio 2015\Projects\SUNAT_TC\Inicializacion.dtsConfig"
+      DTS:ConfigurationType="1"
+      DTS:CreationName=""
+      DTS:DTSID="{1F690825-2E44-4C23-B1FF-6BB572D23747}"
+      DTS:ObjectName="Configuracion_1" />
+  </DTS:Configurations>
+  <DTS:Variables>
+    <DTS:Variable
+      DTS:CreationName=""
+      DTS:DTSID="{49756965-C3A5-49E5-BC2B-A2C6983EFF3E}"
+      DTS:IncludeInDebugDump="2345"
+      DTS:Namespace="User"
+      DTS:ObjectName="ConnectionString">
+      <DTS:VariableValue
+        DTS:DataType="8">Data Source=.;Initial Catalog=Test_DB;Provider=SQLNCLI11.1;Integrated Security=SSPI;</DTS:VariableValue>
+    </DTS:Variable>
+  </DTS:Variables>
   <DTS:Executables>
     <DTS:Executable
       DTS:refId="Package\Ejecucion Final"
