@@ -27,6 +27,6 @@ Reconocimiento:
 
 Programación (scheduling): 
    Está pensado que el package se ejecute todos los días a las 8:30am; 
-   pero recomiendo que también se ejecute a las 9am en caso hubo un atraso en actualizar el TC.
+   pero recomiendo que también se ejecute a las 9am en caso hubiera un atraso en actualizarse el TC.
 
 
