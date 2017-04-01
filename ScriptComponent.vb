@@ -19,6 +19,7 @@ Public Class ScriptMain
     ' >>>
     ' >>>     Basado en el código C# hecho por Afu Nang Tse Mundaca: http://r3xet.blogspot.pe/2013/12/obtener-el-tipo-de-cambio-de-sunat-del.html
 
+		
 
     ' Esta el método que devuelve las filas del Script Component
     Public Overrides Sub CreateNewOutputRows()
@@ -67,7 +68,7 @@ Public Class ScriptMain
         ' La página del TC de la SUNAT acepta un Query String donde se le indica el año y el mes
         strURL = "http://www.sunat.gob.pe/cl-at-ittipcam/tcS01Alias?mes=" & intMes & "&anho=" & intAño
 
-        If CargarDocHTML(objWebClient, strURL, strHTML) Then
+        If CargarDocHTML(objWebClient, strURL, strHTML) Then  ' Si la función retorna falso, entonces no se procesa
             ProcesarDocHTML(strHTML, intAño, intMes, objDataTable)
         End If
 
