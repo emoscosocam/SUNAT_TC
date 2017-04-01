@@ -7,7 +7,7 @@ Hecho con Visual Studio CE 2015 y SQL Server 2016 DE
 * El código se puede ver en ScriptComponent.vb
 * No se usan referencias a librerías de terceros.
 
-* Adicionalmente se incluye un proyecto de Windows Forms de prueba para probar el código de carga.
+* Adicionalmente se incluye un proyecto de Windows Forms para probar el código de carga.
 
 Setup:
 - La base de datos de prueba se debe de llamar Test_DB
