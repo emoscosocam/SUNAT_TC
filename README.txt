@@ -8,7 +8,7 @@ Setup:
 - La cadena de conexión para la base de datos se puede setear en el archivo de configuración Inicializacion.dtsConfig
 - Las tablas STG_SUNAT_TC y M_SUNAT_TC se pueden crear con Script_Crear_Tablas.sql
 - Luego se debe de ejecutar el script Proc_STG_SUNAT_TC.sql para crear el stored procedure.
-
+- El archivo Importar_SUNAT_TC.bat puede ser usado para ejecutar el paquete desde la línea de comando.
 
 * El paquete tiene un ScriptComponent codificado en VB
 
