@@ -5,7 +5,9 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "SUNAT_TC", "SUNAT_TC.dtproj", "{9596D5DA-D90A-4949-B445-F579007BACC1}"
 EndProject
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "SUNAT_TC_Test", "SUNAT_TC_WinForms\SUNAT_TC_Test.vbproj", "{C8CE2443-83DA-44C2-A7E2-997954C2D1C1}"
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "SUNAT_TC_Test_VB", "SUNAT_TC_WinForms\VB\SUNAT_TC_Test_VB.vbproj", "{C8CE2443-83DA-44C2-A7E2-997954C2D1C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SUNAT_TC_Test_CS", "SUNAT_TC_WinForms\CS\SUNAT_TC_Test_CS.csproj", "{E12A5D69-5502-4BA8-9E4E-E62687E7EEAC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,6 +28,12 @@ Global
 		{C8CE2443-83DA-44C2-A7E2-997954C2D1C1}.Development|Any CPU.Build.0 = Debug|Any CPU
 		{C8CE2443-83DA-44C2-A7E2-997954C2D1C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C8CE2443-83DA-44C2-A7E2-997954C2D1C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E12A5D69-5502-4BA8-9E4E-E62687E7EEAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E12A5D69-5502-4BA8-9E4E-E62687E7EEAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E12A5D69-5502-4BA8-9E4E-E62687E7EEAC}.Development|Any CPU.ActiveCfg = Debug|Any CPU
+		{E12A5D69-5502-4BA8-9E4E-E62687E7EEAC}.Development|Any CPU.Build.0 = Debug|Any CPU
+		{E12A5D69-5502-4BA8-9E4E-E62687E7EEAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E12A5D69-5502-4BA8-9E4E-E62687E7EEAC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
