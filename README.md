@@ -3,11 +3,11 @@ Proyecto de SSIS para extraer el Tipo de Cambio de la SUNAT y grabarlo en una ta
 
 Hecho con Visual Studio CE 2015 y SQL Server 2016 DE
 
-* El paquete tiene un ScriptComponent hecho en VB, el cual se conecta a la página de la SUNAT.
-* El código se puede ver en ScriptComponent.vb
+* El paquete tiene un ScriptComponent, el cual se conecta a la página de la SUNAT.
+* El código se puede ver en ScriptComponent.vb y alternativament en ScriptComponent.cs
 * No se usan referencias a librerías de terceros.
 
-* Adicionalmente se incluyen un proyecto en VB y C# para probar el código de carga.
+* Adicionalmente se incluyen un proyecto Windows Forms en VB y C# para probar el código de carga.
 
 Setup:
 - La base de datos de prueba se debe de llamar Test_DB
