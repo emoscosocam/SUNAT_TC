@@ -9,6 +9,8 @@ Hecho con Visual Studio CE 2015 y SQL Server 2016 DE
 
 * Adicionalmente se incluyen un proyecto Windows Forms en VB y C# para probar el código de carga.
 
+Nota: La SUNAT cambió el link para extraer el tipo de cambio. Ahora es: https://e-consulta.sunat.gob.pe/cl-at-ittipcam/tcS01Alias
+
 Setup:
 - La base de datos de prueba se debe de llamar Test_DB
 - Las tablas STG_SUNAT_TC y M_SUNAT_TC se pueden crear con Script_Crear_Tablas.sql
